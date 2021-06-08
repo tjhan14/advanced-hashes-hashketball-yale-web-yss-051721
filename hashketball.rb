@@ -195,12 +195,12 @@ def big_shoe_rebounds
   # find player with biggest shoe size 
   player = get_all_players.max_by {|player_hash| player_hash[:shoe]}
   # return that player's number of rebounds 
+  binding.pry
   return player[:rebounds]
-#  binding.pry
 end
 
 
-# binding.pry
+binding.pry
 
 
 
